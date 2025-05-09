@@ -75,15 +75,16 @@
 
   <section id="about">
     <h2>About Me</h2>
+    <img src="Julia1.jpeg" alt="Julia portrait">
     <p>I'm Julia, a travel enthusiast with a passion for exploring the world. Growing up in a culturally diverse family, I took my first international trip before I could even walk, and I’ve been hooked ever since. For me, travel is more than just a getaway; it’s therapy. I cherish every experience, from savoring new cuisines to meeting amazing people and learning something new with every journey. I’ve turned this love into a space where I can share my adventures, tips, travel essentials, and everything I’ve learned along the way. I can’t wait for us to explore together!</p>
+    <img src="Julia2.jpeg" alt="Julia travel photo">
     <p>It’s no secret—I’ve always loved to travel. Over the years, my passion has only grown with each new adventure. Helping friends and family plan their trips, offering itinerary advice, and sharing travel tips has always been a hobby of mine. Now, I’m excited to bring that same energy to a wider community! My goal is to create a go-to hub where you can learn from my experiences, avoid the common travel pitfalls I’ve encountered, and find inspiration for your own adventures.</p>
     <p>Whether you’re looking for travel tips, curated itineraries, or personal concierge services, I’m here to make your journey as smooth and enjoyable as possible. Simply submit a questionnaire about your desired trip, and I’ll craft a tailored itinerary or accommodation plan to suit your needs. Travel is my passion, and I’m thrilled to help fellow travelers make the most of their adventures. Enjoy your time in D.C., and I hope you have just as much fun as I have.</p>
-    <div id="slideshow" style="position: relative; max-width: 700px; margin: 30px auto;">
-      <img id="slideImage" src="1.jpeg" alt="Slideshow image" style="width: 100%; border-radius: 8px; max-height: 500px; object-fit: contain;">
-      <button onclick="changeSlide(-1)" style="position: absolute; top: 50%; left: 10px; transform: translateY(-50%); font-size: 2rem; background: rgba(0,0,0,0.5); color: white; border: none; border-radius: 50%; width: 40px; height: 40px; cursor: pointer;">&#8249;</button>
-      <button onclick="changeSlide(1)" style="position: absolute; top: 50%; right: 10px; transform: translateY(-50%); font-size: 2rem; background: rgba(0,0,0,0.5); color: white; border: none; border-radius: 50%; width: 40px; height: 40px; cursor: pointer;">&#8250;</button>
-    </div>
-</section>
+    <img src="1.jpeg" alt="Travel photo 1">
+    <img src="2.jpeg" alt="Travel photo 2">
+    <img src="3.jpeg" alt="Travel photo 3">
+    <img src="4.jpeg" alt="Travel photo 4">
+  </section>
 
 
   <footer>
@@ -99,17 +100,6 @@
     }
   </script>
 
-  <script>
-    let slideIndex = 1;
-    const totalSlides = 4;
-
-    function changeSlide(n) {
-      slideIndex += n;
-      if (slideIndex > totalSlides) slideIndex = 1;
-      if (slideIndex < 1) slideIndex = totalSlides;
-      document.getElementById("slideImage").src = slideIndex + ".jpeg";
-    }
-  </script>
-
+  
 </body>
 </html>
